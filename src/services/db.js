@@ -5,7 +5,7 @@ const client = createClient({
     authToken: process.env.db_auth,
 });
 
-await client.execute(`
+client.execute(`
   CREATE TABLE IF NOT EXISTS ips (
     ip TEXT PRIMARY KEY
   )
