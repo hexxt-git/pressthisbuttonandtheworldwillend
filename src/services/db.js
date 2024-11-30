@@ -17,5 +17,7 @@ export const get = async (ip) => {
 };
 
 export const set = async (ip) => {
+    if (ip == "::ffff:127.0.0.1" || ip.match("localhost")) return false;
     await client.execute("INSERT OR IGNORE INTO ips (ip) VALUES (?)", [ip]);
+    return true;
 };

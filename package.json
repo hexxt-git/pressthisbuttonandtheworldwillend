@@ -10,11 +10,16 @@
   },
   "dependencies": {
     "@libsql/client": "^0.14.0",
+    "@vercel/analytics": "^1.4.1",
     "better-sqlite3": "^11.6.0",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.7.2"
   }
 }

@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/next";
+
 export default function ({ children }) {
     return (
         <html>
@@ -21,8 +23,12 @@ export default function ({ children }) {
                     color: "red",
                     userSelect: "none",
                     textTransform: "capitalize",
+                    maxWidth: "100vw",
+                    maxHeight: "100vh",
+                    overflow: "hidden",
                 }}>
                 {children}
+                <Analytics />
             </body>
         </html>
     );
