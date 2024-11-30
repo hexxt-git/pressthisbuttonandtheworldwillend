@@ -1,0 +1,9 @@
+.angel {
+    width: 64px;
+}
+
+.angel:hover {
+    opacity: 1 !important;
+    width: 68px !important;
+    transition: opacity 300ms ease, width 500ms ease-in-out !important;
+}
