@@ -72,28 +72,17 @@ const titles = [
     "an angel, she has a secret",
     "an angel, she has wings",
     "an angel, she has horns",
-    "an angel, she has a tail",
     "an angel, she has a halo",
     "an angel, she has a crown",
-    "an angel, she has a sword",
-    "an angel, she has a shield",
-    "an angel, she has a staff",
-    "an angel, she has a wand",
     "an angel, she has a book",
 
     "an angel, she's been reading a lot",
     "an angel, she's been writing a lot",
-    "an angel, she's been drawing a lot",
     "an angel, she's been singing a lot",
     "an angel, she's been dancing a lot",
 
     "an angel, she's been playing games",
-    "an angel, she's been making games",
-    "an angel, she's been watching anime",
-    "an angel, she's been watching cartoons",
-    "an angel, she's been watching movies",
     "an angel, she's been listening to music",
-    "an angel, she's been making music",
 ];
 class Angel {
     constructor(
