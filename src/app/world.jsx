@@ -36,6 +36,64 @@ const titles = [
     "an angel, not many will see her",
     "a lovely angel, I wonder what she thinks of me",
     "she's no angel.",
+
+    "an angel, she had a date 😳",
+    "an angel, she's been working out",
+    "an angel, she hasn't been eating well",
+    "an angel, she's been sleeping a lot",
+
+    "an angel, she's been having nightmares...",
+    "an angel, she's been having dreams...",
+    "an angel, she's been having visions...",
+
+    "an angel, she can't remember her past",
+    "an angel, she wants to forget her past",
+    "an angel, she's been trying to remember",
+    "an angel, she's been trying to forget",
+
+    "an angel, she can't see the future",
+    "an angel, she can't alter the past",
+    "an angel, she can only live in the present",
+
+    "an angel, she doesn't know what she wants",
+    "an angel, she knows what she wants",
+
+    "an angel, she could be anything",
+    "an angel, she should have been something",
+    "an angel, she's been everything",
+    "an angel, she's been nothing",
+
+    "an angel, she's been waiting for you",
+    "an angel, she's been waiting for me",
+    "an angel, she's been waiting for someone",
+    "an angel, she's been waiting for something",
+    "an angel, she's been waiting for nothing",
+    
+    "an angel, she has a secret",
+    "an angel, she has wings",
+    "an angel, she has horns",
+    "an angel, she has a tail",
+    "an angel, she has a halo",
+    "an angel, she has a crown",
+    "an angel, she has a sword",
+    "an angel, she has a shield",
+    "an angel, she has a staff",
+    "an angel, she has a wand",
+    "an angel, she has a book",
+
+    "an angel, she's been reading a lot",
+    "an angel, she's been writing a lot",
+    "an angel, she's been drawing a lot",
+    "an angel, she's been singing a lot",
+    "an angel, she's been dancing a lot",
+
+    "an angel, she's been playing games",
+    "an angel, she's been making games",
+    "an angel, she's been watching anime",
+    "an angel, she's been watching cartoons",
+    "an angel, she's been watching movies",
+    "an angel, she's been listening to music",
+    "an angel, she's been making music",
 ];
 class Angel {
     constructor(
@@ -53,7 +111,7 @@ class Angel {
     }
 
     update() {
-        let speed = (Math.random() - 0.1) * 0.6;
+        let speed = (Math.random() - 0.1) * 0.75;
         this.top += Math.sin(this.direction) * speed;
         this.left += Math.cos(this.direction) * speed;
         if (Math.random() < 0.05) this.direction = Math.random() * Math.PI * 2;
